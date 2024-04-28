@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroud_img">
+<!--    Bg Img: https://www.canva.com/design/DAF_REbxqZ4/0nkXlDpQR-Uc4tUvfqtKmw/edit-->
+
+    <FrameLayout
+        android:id="@+id/activityOneFrameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="40dp"/>
+
+</LinearLayout>

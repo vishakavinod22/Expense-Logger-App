@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/signUpFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="@string/sign_up"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        />
+
+    <EditText
+        android:id="@+id/profileName"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:hint="@string/enter_profile_name"
+        android:textColor="@color/black"
+        android:textColorHint="@android:color/darker_gray"
+        android:backgroundTint="@color/black"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/userName"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:hint="@string/enter_email_as_username"
+        android:textColor="@color/black"
+        android:textColorHint="@android:color/darker_gray"
+        android:backgroundTint="@color/black"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/userPassword"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:hint="@string/enter_password"
+        android:textColor="@color/black"
+        android:textColorHint="@android:color/darker_gray"
+        android:backgroundTint="@color/black"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/signUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:contentDescription="@string/sign_up_btn_desc"
+        android:text="@string/sign_up"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:background="@color/pink"
+        android:textColor="@color/black"/>
+
+
+</LinearLayout>

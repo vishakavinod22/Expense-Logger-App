@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">IncomeExpenseLogger</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="enter_profile_name">Enter profile name...</string>
+    <string name="enter_email_as_username">Enter email as username...</string>
+    <string name="enter_password">Enter password...</string>
+    <string name="exit_from_sign_up_page">Exit from sign up page.</string>
+    <string name="sign_up_btn_desc">Button to sign up and create new user.</string>
+    <string name="go_to_signup_page">Go to signup page.</string>
+    <string name="log_in">Log In</string>
+    <string name="enter_username">Enter username...</string>
+    <string name="button_to_log_in">Button to log in.</string>
+    <string name="hello_user">Hello User</string>
+    <string name="add_new_log_data">Add new log data for income and expense.</string>
+    <string name="add_item">Add Item</string>
+    <string name="log_out_user">Log out user</string>
+    <string name="log_out">LogOut</string>
+    <string name="user_activity_name">User Activity Name</string>
+    <string name="income_amount">income amount</string>
+    <string name="edit_item">Edit</string>
+    <string name="income_symbol">+</string>
+    <string name="expense_details">Expense Overview</string>
+    <string name="activity_name">Add Activity Name:</string>
+    <string name="activity_amount">Add Amount:</string>
+    <string name="add_description">Add Description:</string>
+    <string name="select_type">Select Type:</string>
+    <string name="income">Income</string>
+    <string name="expense">Expense</string>
+    <string name="button_to_add_item">Button to add item</string>
+    <string name="save">Save</string>
+    <string name="close_page">Close page</string>
+    <string name="close">Close</string>
+    <string name="save_button">Save button</string>
+    <string name="delete_button">Delete Button</string>
+    <string name="delete">Delete</string>
+</resources>
