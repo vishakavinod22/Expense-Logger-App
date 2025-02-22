@@ -30,7 +30,7 @@ class ActivityTwo : AppCompatActivity() {
         val profileName = intent.getStringExtra("profile")
 
         val userProfileName = findViewById<TextView>(R.id.userProfileName)
-        var displayGreeting = "Hello ${profileName}".uppercase()
+        var displayGreeting = "Hello \n${profileName}".uppercase()
         userProfileName.text = displayGreeting
 
         expensesRecyclerView = findViewById(R.id.incomeExpenseRecyclerView)

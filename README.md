@@ -1,6 +1,14 @@
 # Problem Statement
 Develop an expense/income logging application. The app should consist of three activities and utilize shared preferences, as well as Room/SQLite for data storage. Additionally, the use of a RecyclerView and UI fragments is required.
 
+## Screenshots
+<img src="screenshots/SignUpPage.png" alt="Sign Up" style="width:200px; height:auto;">
+<img src="screenshots/LoginPage.png" alt="Login" style="width:200px; height:auto;">
+<img src="screenshots/ExpenseOverview.png" alt="Add Expense" style="width:200px; height:auto;">
+<img src="screenshots/LogsOverview.png" alt="Expense Logs" style="width:200px; height:auto;">
+
+
+
 ## Activity 1: Login and Sign Up
 Activity One comprises two fragments: the login and sign-up fragments. Upon opening the app, the login fragment is initially displayed. The Login Fragment includes at least four elements: two input fields (one for the username and the other for the password), a login button for validating details and navigating to Activity Two, and a sign-up button to transition to the Sign-Up Fragment.  
 
